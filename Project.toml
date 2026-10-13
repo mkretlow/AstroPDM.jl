@@ -1,0 +1,14 @@
+name = "AstroPDM"
+uuid = "e35658e9-a80c-4a50-9274-b33daf8bd0d2"
+authors = ["Mike Kretlow <mike@kretlow.de>"]
+version = "0.1.0"
+
+[compat]
+julia = "1.8"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[targets]
+test = ["Test", "Random"]

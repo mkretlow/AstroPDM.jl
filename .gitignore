@@ -1,0 +1,6 @@
+/Manifest.toml
+/work/
+/.agents/
+/.codex/
+/.aws/
+.DS_Store
